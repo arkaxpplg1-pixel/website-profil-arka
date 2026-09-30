@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arka Nada Bramantio - UI/UX Designer</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Terpadu -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen (Preloader) -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <h2>Welcome to My Website...</h2>
+        </div>
+    </div>
+
+    <!-- Navbar Futuristik & Responsive -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="home_eng.html" class="logo">
+                <span class="logo-box">Kanzz</span> Ryu_Kanzeo
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="home_eng.html" class="active">Home</a>
+                <a href="profile_eng.html">Profile</a>
+                <a href="project_eng.html">Project</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact Us</a>
+                
+                <!-- Tombol Toggle Tema (Dark/Light Mode) -->
+                <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Theme">
+                    <i class="fa-solid fa-moon" id="themeIcon"></i>
+                </button>
+
+                <!-- Dropdown Bahasa Interaktif -->
+                <div class="lang-dropdown" id="langDropdown">
+                    <button class="lang-btn" id="langBtn" type="button">
+                        <i class="fa-solid fa-globe"></i> EN <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="lang-content" id="langContent">
+                        <a href="index.html">Indonesia (ID)</a>
+                        <a href="home_eng.html" class="active-lang">English (EN)</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars" id="toggleIcon"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section Modern & Responsive -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-text">
+                <span class="greeting">Hi, I am</span>
+                <h1 class="name-title">Arka Nada Bramantio</h1>
+                <span class="subtitle-role">RPL | SMKS Brantas Karangkates</span>
+                <p>I am a student at SMKS Brantas Karangkates pursuing the <strong>Software Engineering</strong> major and with a strong curiosity about the world of technology. </p>
+                <p>For me, coding is not just typing commands, but a way of thinking critically and being disciplined in solving problems. On this website, you can get to know me better, understand the values I hold, and how I am developing into a future professional in the field of technology.</p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn-primary">Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="project_eng.html" class="btn-secondary">Explore Project</a>
+                </div>
+            </div>
+            
+            <div class="hero-image-box">
+                <!-- Elemen latar belakang futuristik estetik -->
+                <div class="glow-blob"></div>
+
+                <!-- Foto di dalam Kotak/Bingkai Estetik -->
+                <div class="image-wrapper-modern">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Arka Nada Bramantio">
+                </div>
+
+                <!-- Media Sosial: TikTok, Instagram, LinkedIn -->
+                <div class="social-floating">
+                    <a href="https://www.tiktok.com/@ryuu_kanzzz?_r=1&_t=ZS-99xQWWKFfRV" target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/ryu_kanzeo?stkn=bmRhbXRndmNubngy" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/arka-nada-bramantio-6a160a384/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
